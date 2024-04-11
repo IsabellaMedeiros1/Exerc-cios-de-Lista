@@ -20,8 +20,7 @@ um  X grande na tela conforme mostrado abaixo:
 *                                *
 '''
 
-
-tamanho = 17
+tamanho = int(input("Tamanho desejado: "))
 
 for i in range(tamanho):
     for j in range(i):
@@ -33,7 +32,7 @@ for i in range(tamanho):
         print("*", end="")
     print()
 
-for i in range(tamanho - 2, -1, -1):
+for i in range(tamanho -2, -1, -1):
     for j in range(i):
         print(" ", end="")
     print("*", end="")
